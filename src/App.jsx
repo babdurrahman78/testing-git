@@ -7,6 +7,7 @@ function App() {
   const [name, setName] = useState("");
 
   console.log("testing pull");
+  const [umur, setUmur] = useState(1)
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
