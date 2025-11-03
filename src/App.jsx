@@ -6,7 +6,7 @@ function App() {
 
   const [name, setName] = useState("");
 
-  console.log("Render App Component");
+  console.log("testing pull");
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
