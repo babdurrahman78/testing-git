@@ -13,6 +13,8 @@ export const Form = ({ onSubmit }) => {
     birthPlace: "",
   });
 
+  console.log("render form");
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setStudent({

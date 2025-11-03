@@ -6,11 +6,7 @@ function App() {
 
   const [name, setName] = useState("");
 
-  useEffect(() => {
-    if (count > 5) {
-      setName("Bilal");
-    }
-  }, [count]);
+  console.log("Render App Component");
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
